@@ -1,0 +1,26 @@
+# Arquivos do sistema operacional
+.DS_Store
+._*
+Thumbs.db
+Desktop.ini
+
+# Configurações locais de editores
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Dependências e logs de ferramentas locais
+node_modules/
+*.log
+
+# Variáveis de ambiente e segredos locais
+.env
+.env.*
+!.env.example
+
+# Arquivos temporários e cobertura
+tmp/
+temp/
+coverage/
